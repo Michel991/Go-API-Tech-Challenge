@@ -57,3 +57,9 @@ VALUES (1, 1),
        (5, 1),
        (5, 2),
        (5, 3);
+
+-- courses
+CREATE TABLE IF NOT EXISTS courses (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
